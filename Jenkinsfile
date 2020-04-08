@@ -13,7 +13,7 @@ pipeline {
       stage('Build') {
          steps {
             // Get some code from a GitHub repository
-          https://github.com/shivamlatiyan98/sapient.git
+         https://github.com/shivamlatiyan98/finaltrigger.git
 
             
 
