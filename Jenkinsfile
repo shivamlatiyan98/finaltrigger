@@ -15,7 +15,7 @@ pipeline {
             // Get some code from a GitHub repository
          https://github.com/shivamlatiyan98/finaltrigger.git
 
-            
+            echo 'Triggering at 10 am'
 
             // To run Maven on a Windows agent, use
              bat "mvn -Dmaven.test.failure.ignore=true clean package"
